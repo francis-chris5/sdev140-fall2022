@@ -1,0 +1,9 @@
+price: 12.34	tax: 0.86
+price: 54.32	tax: 3.80
+price: 98.76	tax: 6.91
+price: 1.99	tax: 0.14
+price: 1.99	tax: 0.14
+
+
+
+the total is $181.26
