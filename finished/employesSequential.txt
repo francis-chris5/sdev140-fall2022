@@ -1,0 +1,8 @@
+Sally
+23.45
+Bob
+19.28
+Becky
+22.22
+David
+20.75
