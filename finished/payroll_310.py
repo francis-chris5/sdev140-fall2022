@@ -13,8 +13,8 @@ def writeSequentialFile():
     with open("employesSequential.txt", "a") as toFile:
         more = input("is there another employee to enter data for? (yes/no) ")
         while more.lower() == "yes":
-            name = input("TELL ME WHO IT IS THEN!!! ")
-            rateOfPay = input("HOW MUCH DO THEY MAKE!!!! ")
+            name = input("Enter the next employee's name: ")
+            rateOfPay = input("Enter the payrate for " + name + ": ")
             toFile.write(name + "\n")
             toFile.write(rateOfPay + "\n")
             more = input("is there another employee to enter data for? (yes/no) ")
@@ -28,7 +28,7 @@ def readSequentialFile():
     return employeeData
 
 def getHours(name):
-    hw = float(input(f"GIMME {name}'s HOURS!!!! "))
+    hw = float(input(f"Enter {name}'s hours worked this pay-period: "))
     return hw
 
 
