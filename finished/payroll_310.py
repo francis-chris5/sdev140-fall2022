@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Nov  2 18:30:25 2022
-
 Fall 2022 Projects
-
 @author: c.s.francis
 """
 
@@ -75,15 +73,3 @@ if __name__ == "__main__":
         writePayStub()
     else:
         pass
-    
-
-
-
-
-
-
-
-
-
-
-###########################  WHITE SPACE FOR SCROLLING  ############
